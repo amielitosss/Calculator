@@ -13,8 +13,10 @@ background: linear-gradient(90deg, rgba(14, 30, 25, 1) 0%, rgba(34, 60, 51, 1) 3
 .calculation {
   color: white;
   font-size: 45px;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 .calculator-button {
@@ -76,6 +78,9 @@ background: linear-gradient(90deg, rgba(14, 30, 25, 1) 0%, rgba(34, 60, 51, 1) 3
   align-items: center;
   justify-content: flex-end;
   border-radius: 10px;
+  max-width: 16rem;
+  overflow: hidden;
+  white-space: nowrap;
   box-shadow: inset 0 4px 8px rgba(0,0,0,0.6),
               inset 0 -2px 4px rgba(255,255,255,0.05);
 
